@@ -1,0 +1,1 @@
+./ngrok authtoken $(printenv NGROK)

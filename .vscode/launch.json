@@ -1,0 +1,17 @@
+{
+    "configurations": [
+    {
+        "command": "clear",
+        "name": "New Terminal",
+        "request": "launch",
+        "type": "node-terminal"
+    },
+
+    {
+        "command": "sh start.bash",
+        "name": "Run Server",
+        "request": "launch",
+        "type": "node-terminal"
+    }
+    ]
+}
