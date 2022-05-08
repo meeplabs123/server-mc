@@ -1,11 +1,13 @@
 import discord
 from discord.ext import commands
 import os
+import sys
 
 intents = discord.Intents.default()
 token = os.getenv('DISCORD')
+client = commands.Bot(command_prefix="server-mc:", help_command=None, intents=intents)
 
-status = "Test Status"
+status = sys.argv[1]
 
 
 @client.event
