@@ -1,8 +1,8 @@
 # How to start
-First, use the `./ngrok authtoken <your authtoken>` command to log-in to ngrok. You'll get your authtoken [here](https://dashboard.ngrok.com), after this step, type `./ngrok tcp 25565` and the tunneling is ready-to-use.
+First, set a new environment variable called 'NGROK' with your ngrok authtoken as the value. You'll get your authtoken [here](https://dashboard.ngrok.com).
 
-Now, you need to start the server jar, it's named `paper.jar`, to start it, just use the JVM command, `java -jar (jarName).jar`.
+Next, set another called 'DISCORD' with a discord bot token as the value. You can create a bot [here](https://discord.com/developers/applications).
 
-The server IP will starts with `tcp://<ip here>`, remove the `tcp://` and share it to your friends.
+Now, you need to start the server, run the file named 'start.bash' for a fully automated run. This includes hosting a local server with the server ip as the content, and your discord bot showing the ip as it's status.
 
-**If you use Minecraft non-official from Mojang, set `online-mode` to false in `server.properties` file.**
+**That's It! You server is up and running.**
