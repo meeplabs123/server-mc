@@ -12,7 +12,7 @@ python3 website.py "$SRVIP" &
 echo "Server Ip:"
 echo "$SRVIP"
 echo ""
-java -jar paper.jar
+java -jar paper-1.18.2-333.jar
 clear
 
 bash refresh.sh
