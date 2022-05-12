@@ -15,33 +15,3 @@
 #   into WEPIF, paste it into http://yaml-online-parser.appspot.com/
 #   and see if it gives "ERROR:".
 # - Lines starting with # are comments and so they are ignored.
-
-
-ignore-nijiperms-bridges: true
-resolvers:
-    enabled:
-    - PluginPermissionsResolver
-    - PermissionsExResolver
-    - bPermissionsResolver
-    - GroupManagerResolver
-    - NijiPermissionsResolver
-    - DinnerPermsResolver
-    - FlatFilePermissionsResolver
-    disabled:
-    - VaultResolver
-permissions:
-    groups:
-        default:
-            permissions:
-            - worldedit.reload
-            - worldedit.selection
-            - worlds.creative.worldedit.region
-        admins:
-            permissions:
-            - '*'
-    users:
-        sk89q:
-            permissions:
-            - worldedit
-            groups:
-            - admins
