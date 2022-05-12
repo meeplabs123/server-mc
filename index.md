@@ -1,8 +1,15 @@
-## How to start
-First, set a new environment variable called 'NGROK' with your ngrok authtoken as the value. You'll get your authtoken [here](https://dashboard.ngrok.com).
+## server-mc
+**By meeplabs123**
 
-Next, set another called 'DISCORD' with a discord bot token as the value. You can create a bot [here](https://discord.com/developers/applications).
+This is a paper 1.18.2 server designed to run on [gitpod.io](https://gitpod.io/).
 
-Now, you need to start the server, run the file named 'start.bash' for a fully automated run. This includes hosting a local server with the server ip as the content, and your discord bot showing the ip as it's status.
-
-**That's It! You server is up and running.**
+It boasts fully automated dependency installation and startup.
+Features include:
+  - Local webserver runs to show server ip
+  - NGROK integration*
+  - DISCORD integration*
+  - 25 second start up
+  - Great performance
+  - Extremely easy installation - Run one file!
+  
+\*Once tokens are set
