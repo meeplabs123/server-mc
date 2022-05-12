@@ -21,7 +21,7 @@ class MyServer(BaseHTTPRequestHandler):
 if __name__ == "__main__":        
     webServer = HTTPServer((hostName, serverPort), MyServer)
     print("Server started http://%s:%s" % (hostName, serverPort))
-    subprocess.Popen("python3 discord/main.py \"" + sys.argv[1] + "\" &", stdout=subprocess.PIPE, shell=True)
+    subprocess.Popen("python3 discord/main.py \"" + sys.argv[1] + "\"", stdout=subprocess.PIPE, shell=True)
 
     try:
         webServer.serve_forever()
@@ -30,4 +30,3 @@ if __name__ == "__main__":
 
     webServer.server_close()
     print("Server stopped.")
-    subprocess.Popen("python3 discord/main.py \"Server Closed\" &", stdout=subprocess.PIPE, shell=True)
