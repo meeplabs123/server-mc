@@ -6,3 +6,9 @@ Next, set another called 'DISCORD' with a discord bot token as the value. You ca
 Now, you need to start the server, run the file named 'start.bash' for a fully automated run. This includes hosting a local server with the server ip as the content, and your discord bot showing the ip as it's status.
 
 **That's It! You server is up and running.**
+
+# Author's Notes
+This is designed for [gitpod.io](https://gitpod.io), so the jdk autoinstaller will only work there.
+If you use other services, you will have to install a working jdk manually and remove the jdk autoinstaller in init.sh.
+
+Only works on linux.
